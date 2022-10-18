@@ -3,6 +3,7 @@
 #->a média de idade do grupo
 #->qual é o nome do homem mais velho
 #->quantas mulheres têm menos de 20 anos
+#->possui tratamento de erros para respostas 'equivocadas' do usuário
 cm = 0
 cont = 0
 mi = 0
