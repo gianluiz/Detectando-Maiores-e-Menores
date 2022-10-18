@@ -14,8 +14,7 @@ for c in range (1,9):
         nome = str(input("Nome:"))
         if nome.isalpha():
             break
-        elif nome.isnumeric():
-            print("ERRO.Digite apenas LETRAS e não NÚMEROS.")
+        print("ERRO.Digite apenas LETRAS e não NÚMEROS.")
     while True:
         try:
             idade = int(input("Idade:"))
@@ -40,3 +39,4 @@ for c in range (1,9):
 print(f"A média de idade do grupo é {mi/cont}")
 print(f"O nome do homem mais velho é {hvn}")
 print(f"E existem {cm} mulheres com menos de 20 anos.")
+
